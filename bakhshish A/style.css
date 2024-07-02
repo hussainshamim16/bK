@@ -1,9 +1,13 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root{
     --headingcolor:#002244;
     --darkblue: #012169;
     --sectionColor: #000080;
     --backGround: #89CFF0;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
 }
 
 section{
@@ -28,13 +32,18 @@ header{
     /* border: 2px solid red; */
     height: 16vh;
     margin-bottom: 10px;
+    
+    
 }
 
 nav{
     /* border : 1px solid rgb(0, 102, 255); */
+    z-index: 3;
+    /* position: fixed; */
+    background-color: black;
     align-items: end;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     padding: 0px 40px;
 }
 nav img{
@@ -47,7 +56,8 @@ nav ul a{
     text-transform: capitalize;
     font-size: 1.2em;
     font-weight: 400;
-    color: var(--headingcolor);
+    color: white;
+    /* color: var(--headingcolor); */
 }
 
 nav ul li{
@@ -57,6 +67,37 @@ nav ul li{
     list-style: none;
     justify-content: space-around;
 
+}
+
+section.email{
+    /* border: 1px solid red; */
+    height: 20vh;
+    margin: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section.email form{
+    width: 80%;
+}
+section.email form .tex{
+    /* background-color: #000; */
+    padding: 20px 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+section.email form .tex input{
+ 
+    padding: 15px 20px;
+    width: 70%;
+   
+}
+section.email form .tex button{
+ 
+    padding: 15px 20px;
+    width: 20%;
+    cursor: pointer;
+   
 }
 
 section.firstSection{
@@ -142,6 +183,26 @@ text-align: center;
 .awords .b3{
     background-color: #43036d;
 }
+
+section.residency{
+border: 1px solid red;
+height: 80vh;
+margin: 50px 0px;
+
+padding: 0px 20px;
+
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+section.residency .bady{
+border: 1px solid red;
+height: 60vh;
+width: 70%;
+height: 40vh;
+margin-bottom: 20px;
+}
+
 .secondSection .container .text p{
     font-size: 1.1em;
 }
