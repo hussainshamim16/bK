@@ -157,7 +157,7 @@ text-align: center;
     width: 30%;
 }
 .secondSection .container .text{
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 .secondSection .container .text p{
     font-size: 1.1em;
@@ -254,8 +254,8 @@ section.thirdSection{
 .thirdSection img{
 width: 70%;
 }
-section.fourthSection{
-}
+/* section.fourthSection{
+} */
 .fifthSection{
     width: 100%;
     background-color: var(--headingcolor);
