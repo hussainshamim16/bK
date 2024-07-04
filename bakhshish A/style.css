@@ -315,10 +315,23 @@ section.abut{
 section.thirdSection{
     height: 70vh;
     background-color: #007f9815;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .thirdSection img{
 width: 70%;
+border-radius: 20px;
 }
+.thirdSection .box{
+width: 30%;
+}
+.thirdSection .box p{
+text-align: center;
+font-size: 1.2rem;
+}
+
 /* section.fourthSection{
 } */
 .fifthSection{
