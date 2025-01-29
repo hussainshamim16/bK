@@ -1,9 +1,0 @@
-#002244 text or heading's color
-
-#89CFF0 --backgroundcolor  
-
-#000080 --sectionscolor
-
-#6050DC --extracolor
-
-#012169 --darkblue
