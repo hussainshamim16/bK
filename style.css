@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(0, 20, 80);
+    color: white;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.346);
+    padding: 30px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.card{
+    width: 30%;
+    background-color: rgb(150, 160, 255);
+    box-shadow: 15px 11px 30px 0px #ffffff55;
+    margin-bottom: 20px;
+}
+.pera{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+
+.modal-content {
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text */
+}
+
+.modal-header {
+    border-bottom: 1px solid #ffffff33;
+}
+
+.modal-footer {
+    border-top: 1px solid #ffffff33;
+}
+
+.modal-label {
+    color: white;
+}
+
+
+@media only screen and (max-width: 500px) {
+ 
+    form{
+        background-color: rgba(0, 0, 0, 0.346);
+        padding: 30px;
+        width: 90%;
+    }
+    .card{
+        width: 100%;
+        box-shadow: 15px 11px 10px 0px #84848455;
+    }
+}
+
+.allForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
